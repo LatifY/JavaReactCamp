@@ -2,6 +2,7 @@ package Day5Homework1;
 
 import Day5Homework1.business.abstracts.AuthService;
 import Day5Homework1.business.abstracts.CustomerService;
+import Day5Homework1.business.adapters.GoogleAuthManagerAdapter;
 import Day5Homework1.business.concretes.AuthManager;
 import Day5Homework1.business.concretes.CustomerManager;
 import Day5Homework1.business.concretes.CustomerValidationManager;
@@ -38,5 +39,8 @@ public class Main {
 
         customerService.delete(c7);
 
+        AuthService authService2 = new GoogleAuthManagerAdapter();
+        authService2.register(1, "Latif", "Yılmaz", "latifo@gmail.com", "123password");
+        authService2.login("latifo@gmail.com", "123password");
     }
 }
