@@ -1,4 +1,4 @@
-# Java & React Camp Homeworks
+# Java & React Camp Projects & Homeworks
 
 EN:
 Here I will develop and share the assignments given throughout the camp. I will also open other big projects as a separate repository. Stay tuned! Do not forget to give stars: 🤩
